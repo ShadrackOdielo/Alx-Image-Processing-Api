@@ -3,3 +3,8 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+node_modules/
+.idea/
+*.iml
+.vscode/
+dist/

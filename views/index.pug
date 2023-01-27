@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 list of all images 
+  a(href='/api') home 
+  h2 click on any image to view it and add height and width parameters at the end of the url to resize the image
+  ul
+    each file in files
+     li   
+         a(href=`/api/images/?filename=${file}`) #{file}
